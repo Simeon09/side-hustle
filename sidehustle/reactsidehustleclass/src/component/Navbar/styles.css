@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 40vw;
+    align-items: center;
+}
+.links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.logo{
+    border: 4px solid rgb(241, 205, 43);
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgb(241, 205, 43);
+}
+.sectionOne{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    /* padding-top: 50px; */
+    align-items: center;
+}
+.sectionOne div:first-child h6{
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0px;
+    color:rgb(241, 205, 43) ;
+    margin: 0px;
+}
+.sectionOne div:first-child h1{
+    padding-top: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.sectionOne div:first-child h2{
+    margin: 0px;
+}
+.sectionOne div:first-child .btnSection{
+    display: flex;
+    gap: 20px;
+}
+.myself{
+    display: flex;
+    align-items: center;
+}
+.myself h6 {
+    margin: 0px;
+    font-size: 20px;
+    color:rgb(241, 205, 43) ;
+    padding-bottom: 0px;
+}
+.myself h1{
+    font-size: 40px;
+ margin: 0px;
+}
+.myself p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.qualifications{
+    display: flex;
+    justify-content: space-evenly;
+}
+.workEx h1{
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+.workEx h3{
+    text-align: center;
+    color: rgb(241, 205, 43) ;
+    margin: 0px;
+}
+.qualifications h2{
+    font-weight: 700;
+}
+.qualifications span h6{
+    color: rgb(241, 205, 43) ;
+    font-size: 16px;
+    margin: 0px;
+}
+.qualifications span h4{
+    font-size: 18px;
+}
+.qualifications span h5{
+    font-size: 17px;
+}
+.Footer{
+    display: flex;
+    justify-content:space-between ;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-top: 30px;
+    background-color:  rgb(241, 205, 43) ;
+    
+}
+.Footer h5{
+    font-weight: 700;
+    color: black;
+    font-size: 17px;
+    margin: 0px;
+    padding: 10px;
+}
