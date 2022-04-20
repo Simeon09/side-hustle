@@ -1,6 +1,7 @@
 import React from "react";
 import './styles.css';
 import Button from './Button'
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -9,12 +10,12 @@ function Navbar() {
     <div className="header">
       <h1 className="logo">S</h1>
       <ul className="links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
+        <li><a href="#"> <Link to="/home">Home</Link> </a></li>
+        <li><a href="#"><Link to="/experience" >Services</Link></a></li>
+        <li><a href="#"><Link to="/myself"> Portfolio</Link></a></li>
         <li> <a href="#">Testimonial</a></li>
-        <li> <a href="#">blog</a></li>
-        <li><a href="#">  <Button /></a></li>
+        <li> <a href="#"><Link to="/footer"> blog</Link></a></li>
+        <li><a href="#"> <Link to="/footer"><Button /></Link> </a></li>
       </ul>
     </div>
 
